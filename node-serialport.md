@@ -1,0 +1,1 @@
+# NodeJS and Serial Port communication
