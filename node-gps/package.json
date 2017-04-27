@@ -1,21 +1,19 @@
 {
-  "name": "node-serialport",
+  "name": "node-gps",
   "version": "1.0.0",
-  "description": "Node Serial port communication project",
+  "description": "Node Serial GPS communication project",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "keywords": [
     "node",
-    "serial",
-    "port",
+    "gps",
     "project",
     "blog"
   ],
   "author": "Tine Jozelj <tine.jozelj@tjo.space>",
   "license": "MIT",
   "dependencies": {
-    "serialport": "^4.0.7"
   }
 }
