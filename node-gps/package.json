@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "keywords": [
     "node",
     "gps",
@@ -15,5 +18,10 @@
   "author": "Tine Jozelj <tine.jozelj@tjo.space>",
   "license": "MIT",
   "dependencies": {
+    "tslib": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.2.2",
+    "@types/node": "^7.0.14"
   }
 }
