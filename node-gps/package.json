@@ -18,6 +18,7 @@
   "author": "Tine Jozelj <tine.jozelj@tjo.space>",
   "license": "MIT",
   "dependencies": {
+    "nmea-0183": "0.0.7",
     "tslib": "^1.6.0"
   },
   "devDependencies": {

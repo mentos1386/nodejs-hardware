@@ -1,10 +1,10 @@
 /// <reference types="node" />
 import { EventEmitter } from 'events';
-import { Readable } from 'stream';
+import { ReadStream } from 'tty';
 declare class GPS extends EventEmitter {
-    device: Readable;
+    path: string;
+    read: ReadStream;
     constructor(device: string);
-    processData(buffer: Buffer): void;
-    processError(buffer: Buffer): void;
+    private processData(data);
 }
 export { GPS };
